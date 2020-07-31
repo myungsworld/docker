@@ -35,3 +35,9 @@ run과 같은 실행 명령어, 컨테이너가 있을때는 이런식으로 실
 - **docker rm [컨테이너 이름] , docker rmi [image]**  
 도커 컨테이너를 지우는 명령어, i명령어로 image 자체를 지울수도 있다.  
 
+- **docker rm `docker ps -a -q`**. 
+- **docker rmi -f `docker images -q`**. 
+- 프로세스 전체삭제와 이미지 전체삭제 명령어  
+
+
+

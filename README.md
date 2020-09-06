@@ -40,5 +40,6 @@ run과 같은 실행 명령어, 컨테이너가 있을때는 이런식으로 실
 - **docker rmi -f `docker images -q`**. 
 - 프로세스 전체삭제와 이미지 전체삭제 명령어  
 
-
+- **docker network prune**. 
+사용되지 않는 네트워크 삭제  
 

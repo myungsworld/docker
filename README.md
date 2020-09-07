@@ -43,3 +43,9 @@ run과 같은 실행 명령어, 컨테이너가 있을때는 이런식으로 실
 - **docker network prune**.  
 사용되지 않는 네트워크 삭제  
 
+- **docker-compose.yaml volumes**.  
+로컬환경에서 컨테이너 안으로 파일을 넣는 방법 ex) fabric-contract-api-go 파일 이동  
+./../chaincode/fabric-contract-api-go:/opt/gopath/src/github.com/hyperledger/fabric-contract-api-go/  
+:을 기준으로 왼쪽은 로컬환경 오른쪽은 컨테이너 환경  
+
+
